@@ -4,7 +4,7 @@ print(letters[0], letters[2])
 
 #22
 license_plate = "24A 2210"
-print(license_plate[:])
+print(license_plate[-4:])
 
 #23
 string = "ABABAB"
@@ -41,3 +41,4 @@ string = 'abcd'
 string2= string.replace('b', 'B')
 string = string2
 print(string)
+
