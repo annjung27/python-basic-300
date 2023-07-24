@@ -50,3 +50,9 @@ print("이름: %s 나이: %d" % (name2, age2))
 print("이름: {name} 나이: {age}".format(name=name1, age=age1))
 print("이름: {} 나이: {}".format(name2, age2))
 print("이름: {0} 나이: {1}".format(name2, age2))
+
+# 037 문자열 출력
+# 파이썬 3.6부터 지원하는 f-string을 사용해서 035번 문제를 다시 풀어보세요.
+
+print(f"이름: {name1} 나이: {age1}")
+print(f"이름: {name2} 나이: {age2}")
